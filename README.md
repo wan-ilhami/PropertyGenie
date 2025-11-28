@@ -34,7 +34,7 @@ cd property-genie
 npm install
 
 # 3. Create .env.local file and add:
-NEXT_PUBLIC_API_URL=https://agents.propertygenie.com.my/.netlify/functions/properties-mock
+NEXT_PUBLIC_API_URL=''
 
 # 4. Run development server
 npm run dev
@@ -65,27 +65,6 @@ property-genie/
 └── package.json
 ```
 
-## ⚙️ Configuration
-
-### Change Theme Color
-Edit `pages/_app.js`:
-```javascript
-palette: {
-  primary: { main: '#0056b3' },  // Change this color
-}
-```
-
-### Change Items Per Page
-Edit `components/Hooks/usePropertySearch.js`:
-```javascript
-const perPage = 9;  // Modify this number
-```
-
-### Add Property Types
-Edit `components/Search/FilterPanel.js`:
-```javascript
-const PROPERTY_TYPES = ['apartment', 'house', 'condo', ...];
-```
 
 ## 🏃 Running the App
 
@@ -120,8 +99,7 @@ MIT License - See LICENSE file for details
 
 ## 📧 Contact
 
-- **Project:** [https://github.com/your-username/property-genie](https://github.com/your-username/property-genie)
-- **Issues:** [https://github.com/your-username/property-genie/issues](https://github.com/your-username/property-genie/issues)
+- **Project:** [https://github.com/wan-ilhami/PropertyGenie.git](https://github.com/wan-ilhami/PropertyGenie.git)
 
 ---
 
